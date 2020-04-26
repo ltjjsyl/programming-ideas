@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="refactoring" />
+        <module name="code-conventions" />
+        <module name="design-principle" />
+        <module name="design-pattern" />
+        <module name="object-oriented" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="code-conventions" target="1.8" />
+      <module name="design-pattern" target="1.8" />
+      <module name="design-principle" target="1.7" />
+      <module name="object-oriented" target="1.7" />
+      <module name="programming-ideas" target="1.8" />
+      <module name="refactoring" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
